@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityMobile">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="87dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="134dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/habitName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="1"
+            android:inputType="text"
+            android:singleLine="true"
+            android:layout_weight="1"
+            android:hint="@string/type_your_habit"
+            android:imeOptions="actionDone"
+            android:textSize="33sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="194dp"
+        android:onClick="onClickAddButton"
+        android:text="@string/add"
+        android:textAllCaps="false"
+        android:textSize="33sp"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <Button
+        android:id="@+id/resetTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickResetTable"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ff0000"
+        android:layout_marginBottom="155dp"
+        android:text="Reset table" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="TextView" />
+
+</RelativeLayout>

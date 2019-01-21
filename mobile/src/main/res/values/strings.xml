@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Habit Manager</string>
+    <string name="add">Add</string>
+    <string name="type_your_habit">Type Your Habit...</string>
+</resources>
