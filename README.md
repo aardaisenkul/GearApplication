@@ -7,4 +7,4 @@ Ali Arda İsenkul
 
 Sertaç Gökkaya
 
-Hüseyin Mert Yenilmez
+Bengisu Erdi
